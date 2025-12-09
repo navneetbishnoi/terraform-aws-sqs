@@ -24,11 +24,6 @@ variable "label_order" {
   description = "Label order, e.g. `name`,`application`."
 }
 
-variable "attributes" {
-  type        = list(any)
-  default     = []
-  description = "Additional attributes (e.g. `1`)."
-}
 
 
 variable "managedby" {
